@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My State Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My State Webpage!</h1>
+    <p>This is a simple webpage hosted on an EC2 instance.</p>
+    <p>Current state: <span id="state">Loading...</span></p>
+
+    <script>
+        // You can use JavaScript to dynamically update the state information
+        document.getElementById('state').innerText = 'Online';
+    </script>
+</body>
+</html>
